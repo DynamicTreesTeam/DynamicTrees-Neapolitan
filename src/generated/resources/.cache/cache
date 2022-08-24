@@ -1,4 +1,9 @@
+07f673f554b5f95ee258f653e2a19415eeff6b1c data/dtneapolitan/loot_tables/blocks/banana_leaves.json
+87a2d1a698bd60050ced02c98ee10c9753fe36bf data/dtneapolitan/loot_tables/trees/branches/banana.json
+0d24489a7aacbdcdeb210892cc325cabf351d098 data/dtneapolitan/loot_tables/trees/leaves/banana.json
+87346bf3b649896e7cbb95303db1554715b6ae0f data/dtneapolitan/loot_tables/trees/voluntary/banana.json
 68a078d27d688123521a9927bc5cd5c3d446db3f data/dynamictrees/tags/blocks/branches_that_burn.json
 6a1f0aff5df8726a5d9cd0ec1e28cfe884a57a40 data/dynamictrees/tags/blocks/leaves.json
 7f1478ccc437e5464d4fd92866b37fe558cab337 data/dynamictrees/tags/blocks/saplings.json
+68a078d27d688123521a9927bc5cd5c3d446db3f data/dynamictrees/tags/items/branches_that_burn.json
 4ac2e7c165e12b28b64f250f6d806773ced534aa data/dynamictrees/tags/items/seeds.json

@@ -69,14 +69,8 @@ public class DynamicTreesNeapolitan
     }
 
     public void gatherData(final GatherDataEvent event) {
-        GatherDataHelper.gatherAllData(
-                MOD_ID,
-                event,
-                SoilProperties.REGISTRY,
-                Family.REGISTRY,
-                Species.REGISTRY,
-                LeavesProperties.REGISTRY
-        );;
+        GatherDataHelper.gatherTagData(MOD_ID, event);
+        GatherDataHelper.gatherLootData(MOD_ID, event);
     }
 
 }

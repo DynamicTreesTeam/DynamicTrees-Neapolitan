@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:alternative",
+                  "terms": [
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "item": "minecraft:shears"
+                      }
+                    },
+                    {
+                      "condition": "minecraft:match_tool",
+                      "predicate": {
+                        "enchantments": [
+                          {
+                            "enchantment": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ],
+              "name": "neapolitan:banana_frond"
+            },
+            {
+              "type": "dynamictrees:weighted_item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                },
+                {
+                  "condition": "dynamictrees:seasonal_seed_drop_chance"
+                }
+              ],
+              "items": {
+                "neapolitan:small_banana_frond": 1,
+                "neapolitan:banana_frond": 1,
+                "neapolitan:large_banana_frond": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

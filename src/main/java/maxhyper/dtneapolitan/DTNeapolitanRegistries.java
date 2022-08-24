@@ -5,12 +5,10 @@ import com.ferreusveritas.dynamictrees.api.registry.TypeRegistryEvent;
 import com.ferreusveritas.dynamictrees.blocks.leaves.LeavesProperties;
 import com.ferreusveritas.dynamictrees.systems.fruit.Fruit;
 import com.ferreusveritas.dynamictrees.systems.genfeatures.GenFeature;
-import com.ferreusveritas.dynamictrees.trees.Family;
 import com.ferreusveritas.dynamictrees.trees.Species;
 import maxhyper.dtneapolitan.blocks.BananaLeavesProperties;
 import maxhyper.dtneapolitan.fruits.BananaFruit;
 import maxhyper.dtneapolitan.genfeatures.DTNeapolitanGenFeatures;
-import maxhyper.dtneapolitan.trees.BananaFamily;
 import maxhyper.dtneapolitan.trees.BananaSpecies;
 import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -20,11 +18,6 @@ import net.minecraftforge.fml.common.Mod;
 public class DTNeapolitanRegistries {
 
     public static final ResourceLocation BANANA = new ResourceLocation(DynamicTreesNeapolitan.MOD_ID, "banana");
-
-    @SubscribeEvent
-    public static void registerFamilyTypes(final TypeRegistryEvent<Family> event) {
-        event.registerType(BANANA, BananaFamily.TYPE);
-    }
 
     @SubscribeEvent
     public static void registerSpeciesType(final TypeRegistryEvent<Species> event) {
