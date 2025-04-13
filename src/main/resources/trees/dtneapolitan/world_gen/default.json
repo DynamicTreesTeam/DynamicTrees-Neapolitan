@@ -67,5 +67,16 @@
         }
       }
     }
+  },
+  {
+    "_comment": "Oak generation in Strawberry Fields biome",
+    "select": "neapolitan:strawberry_fields",
+    "apply": {
+      "species": "oak",
+      "density": [
+        2.0
+      ],
+      "chance": 0.1
+    }
   }
 ]

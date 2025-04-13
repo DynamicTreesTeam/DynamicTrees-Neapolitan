@@ -1,0 +1,18 @@
+[
+  {
+    "__comment": "Cancel standard tree features from Strawberry Fields biome.",
+    "select": "neapolitan:strawberry_fields",
+    "cancellers": {
+      "type": "tree",
+      "namespace": "minecraft"
+    }
+  },
+  {
+    "__comment": "Cancel spruce trees near Mint Sprouts.",
+    "select": { "tag": "neapolitan:has_feature/mint_pond"},
+    "cancellers": {
+      "type": "tree",
+      "namespace": "minecraft"
+    }
+  }
+]
